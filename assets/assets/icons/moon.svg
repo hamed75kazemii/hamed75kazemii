@@ -1,0 +1,46 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Neon glow -->
+    <filter id="neon-glow-moon" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur1"/>
+      <feGaussianBlur stdDeviation="8" in="SourceGraphic" result="blur2"/>
+      <feMerge>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Cool blue/purple neon -->
+    <linearGradient id="moon-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"  stop-color="#7DF9FF"/>
+      <stop offset="50%" stop-color="#6A5ACD"/>
+      <stop offset="100%" stop-color="#B388FF"/>
+    </linearGradient>
+
+    <!-- Crescent via mask -->
+    <mask id="crescent-mask">
+      <!-- big circle (white = visible) -->
+      <rect width="100%" height="100%" fill="black"/>
+      <circle cx="132" cy="120" r="54" fill="white"/>
+      <!-- subtract smaller circle (black = cut out) -->
+      <circle cx="160" cy="108" r="54" fill="black"/>
+    </mask>
+  </defs>
+
+  <!-- Optional dark background -->
+  <rect width="100%" height="100%" fill="#0b0f1a"/>
+
+  <!-- Crescent outline (stroke only for neon look) -->
+  <g filter="url(#neon-glow-moon)">
+    <g mask="url(#crescent-mask)">
+      <circle cx="132" cy="120" r="54" fill="none" stroke="url(#moon-grad)" stroke-width="8"/>
+    </g>
+    <!-- tiny sparkles -->
+    <g fill="none" stroke="url(#moon-grad)" stroke-width="4" stroke-linecap="round">
+      <line x1="56" y1="60" x2="56" y2="68"/><line x1="52" y1="64" x2="60" y2="64"/>
+      <line x1="210" y1="60" x2="210" y2="68"/><line x1="206" y1="64" x2="214" y2="64"/>
+      <line x1="84" y1="204" x2="84" y2="212"/><line x1="80" y1="208" x2="88" y2="208"/>
+    </g>
+  </g>
+</svg>
