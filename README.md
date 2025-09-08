@@ -1,264 +1,44 @@
-# Hamed Kazemi - Flutter Developer Portfolio
-
-A modern, responsive Flutter Web portfolio showcasing Hamed Kazemi's skills, projects, and experience as a Flutter Developer.
-
-## 🌟 Features
-
-### ✨ Modern UI/UX
-
-- **Glassmorphism Design**: Beautiful backdrop filter effects with gradient backgrounds
-- **Responsive Layout**: Optimized for both desktop and mobile devices
-- **Smooth Animations**: Elegant transitions and hover effects
-- **Material Design 3**: Latest Material Design principles
-
-### 🎨 Theme & Localization
-
-- **Dark/Light Theme**: Toggle between dark and light themes
-- **Bilingual Support**: Persian (فارسی) and English language support
-- **Dynamic Color Schemes**: Theme-aware color palettes
-- **Persian Font Support**: Vazirmatn font for proper Persian text rendering
-
-### 📱 Responsive Design
-
-- **Mobile-First Approach**: Optimized for mobile devices
-- **Adaptive Layouts**: Different layouts for different screen sizes
-- **Touch-Friendly**: Optimized touch targets and interactions
-- **PWA Ready**: Progressive Web App capabilities
-
-### 🚀 Technical Features
-
-- **GetX State Management**: Efficient state management and dependency injection
-- **CustomScrollView**: Smooth scrolling with SliverAppBar
-- **Gradient Animations**: Dynamic gradient changes based on scroll position
-- **URL Launcher**: Direct links to projects and contact information
-
-## 📋 Portfolio Sections
-
-1. **Home**: Hero section with introduction and call-to-action
-2. **About Me**: Personal information and description
-3. **Skills**: Technical skills and expertise
-4. **Projects**: Showcase of completed projects with links
-5. **Work Experience**: Professional background
-6. **Education**: Academic qualifications
-7. **Contact**: Contact information and social media links
-
-## 🛠️ Technologies Used
-
-- **Flutter**: Cross-platform UI framework
-- **Dart**: Programming language
-- **GetX**: State management and dependency injection
-- **Google Fonts**: Typography (Vazirmatn for Persian)
-- **URL Launcher**: External link handling
-- **Flutter Web**: Web platform support
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Flutter SDK (3.0.0 or higher)
-- Dart SDK
-- Web browser for testing
-
-### Installation
-
-1. **Clone the repository**
-
-   ```bash
-   git clone <repository-url>
-   cd hamed_portfolio
-   ```
-
-2. **Install dependencies**
-
-   ```bash
-   flutter pub get
-   ```
-
-3. **Run the app**
-
-   ```bash
-   # For web development
-   flutter run -d chrome
-
-   # For production build
-   flutter build web
-   ```
-
-4. **Serve the production build**
-   ```bash
-   cd build/web
-   python3 -m http.server 8000
-   # Or use any other web server
-   ```
-
-## 📱 Building for Production
-
-### Web Build
-
-```bash
-flutter build web --release
-```
-
-### PWA Build
-
-```bash
-flutter build web --release --web-renderer html
-```
-
-## 🎨 Customization
-
-### Colors
-
-Edit `lib/utils/app_colors.dart` to customize the color scheme:
-
-- Light theme colors
-- Dark theme colors
-- Gradient combinations
-
-### Content
-
-Update `lib/utils/app_strings.dart` to modify:
-
-- Personal information
-- Project details
-- Skills list
-- Contact information
-
-### Styling
-
-Modify the widget files in `lib/widgets/` to customize:
-
-- Layouts
-- Animations
-- Typography
-- Spacing
-
-## 🌐 Localization
-
-The app supports Persian and English languages:
-
-- **Persian (فارسی)**: Default language with RTL support
-- **English**: Secondary language with LTR support
-- **Dynamic Switching**: Toggle between languages at runtime
-
-## 🎯 Key Features Implementation
-
-### Glassmorphic AppBar
-
-- `BackdropFilter` with blur effects
-- Gradient background with scroll-responsive color changes
-- Smooth transitions and animations
-
-### Responsive Design
-
-- `LayoutBuilder` for adaptive layouts
-- `MediaQuery` for screen size detection
-- Flexible grid systems
-
-### Theme Management
-
-- `GetX` controllers for state management
-- Dynamic theme switching
-- Persistent theme preferences
-
-## 📁 Project Structure
-
-```
-lib/
-├── controllers/          # GetX controllers
-│   ├── theme_controller.dart
-│   └── language_controller.dart
-├── screens/             # Main screens
-│   └── home_screen.dart
-├── widgets/             # Reusable widgets
-│   ├── glassmorphic_app_bar.dart
-│   ├── about_section.dart
-│   ├── skills_section.dart
-│   ├── projects_section.dart
-│   ├── experience_section.dart
-│   ├── education_section.dart
-│   ├── contact_section.dart
-│   └── theme_language_switcher.dart
-└── utils/               # Utility classes
-    ├── app_colors.dart
-    └── app_strings.dart
-
-web/                     # Web-specific files
-├── index.html
-└── manifest.json
-```
-
-## 🔧 Dependencies
-
-```yaml
-dependencies:
-  flutter:
-    sdk: flutter
-  flutter_localizations:
-    sdk: flutter
-  get: ^4.6.6
-  google_fonts: ^6.1.0
-  url_launcher: ^6.2.4
-  flutter_svg: ^2.0.9
-  animated_text_kit: ^4.2.2
-  flutter_staggered_animations: ^1.1.1
-```
-
-## 📱 Browser Support
-
-- Chrome (recommended)
-- Firefox
-- Safari
-- Edge
-
-## 🚀 Deployment
-
-### GitHub Pages
-
-1. Build the web app: `flutter build web`
-2. Push the `build/web` folder to your repository
-3. Enable GitHub Pages in repository settings
-
-### Netlify
-
-1. Connect your repository to Netlify
-2. Set build command: `flutter build web`
-3. Set publish directory: `build/web`
-
-### Vercel
-
-1. Connect your repository to Vercel
-2. Set build command: `flutter build web`
-3. Set output directory: `build/web`
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 👨‍💻 Developer
-
-**Hamed Kazemi** - Flutter Developer
-
-- Email: hamed75kazemii@gmail.com
-- Phone: (+98) 9382867267
-- Location: Tehran, Pardis, Iran
-- LinkedIn: [Hamed Kazemi](https://www.linkedin.com/in/hamed--kazemi)
-
-## 🙏 Acknowledgments
-
-- Flutter team for the amazing framework
-- GetX team for state management solution
-- Google Fonts for typography support
-- The Flutter community for inspiration and support
+# ✨ Who am I?
+I'm **Hamed Kazemi**, a passionate **Flutter & Fullstack Developer** who loves building social applications.  
+Currently I'm working on <a href="https://github.com/hamed75kazemii/2gether" target="_blank">2gether</a>, a social media app designed to bring people together in real life.  
+
+# 🚀 What I Do
+* 📱 Flutter & Mobile App Development (iOS & Android)
+* 🌐 Backend & API Integration
+* 🎯 Building Social Media Platforms
+* 🛠️ Exploring new tools, frameworks, and modern technologies
+
+# 💻 Tech Stack
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) 
+![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)  
+![Airtable](https://img.shields.io/badge/Airtable-18BFFF?style=for-the-badge&logo=airtable&logoColor=white) 
+![Bitbucket](https://img.shields.io/badge/Bitbucket-0052CC?style=for-the-badge&logo=bitbucket&logoColor=white)  
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) 
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) 
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)  
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) 
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) 
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)  
+![NoSQL](https://img.shields.io/badge/NoSQL-%2300C58E.svg?style=for-the-badge&logo=databricks&logoColor=white)  
+
+
+
+
+# 💬 Let's Connect  
+
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/hamed_kzy)  
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yourmail@gmail.com?subject=Collaboration%20Request)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hamed--kazemi)  
 
 ---
 
-**Built with ❤️ using Flutter**
+<p align="center">
+  <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="250" alt="pixel-coding-gif"/>
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" />
+</picture>
