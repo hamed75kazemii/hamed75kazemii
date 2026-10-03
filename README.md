@@ -1,6 +1,6 @@
 # ✨ Who am I?
 I'm **Hamed Kazemi**, a passionate **Flutter & Fullstack Developer** who loves building social applications.  
-Currently I'm working on <a href="https://github.com/hamed75kazemii/2gether" target="_blank">2gether</a>, a social media app designed to bring people together in real life.  
+
 
 # 🚀 What I Do
 * 📱 Flutter & Mobile App Development (iOS & Android)
@@ -10,6 +10,8 @@ Currently I'm working on <a href="https://github.com/hamed75kazemii/2gether" tar
 
 # 💻 Tech Stack
 ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) 
+![Kotlin](https://img.shields.io/badge/Kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)
 ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)  
 ![Airtable](https://img.shields.io/badge/Airtable-18BFFF?style=for-the-badge&logo=airtable&logoColor=white) 
 ![Bitbucket](https://img.shields.io/badge/Bitbucket-0052CC?style=for-the-badge&logo=bitbucket&logoColor=white)  
