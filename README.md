@@ -4,7 +4,7 @@ I'm **Hamed Kazemi**, a passionate **Flutter & Fullstack Developer** who loves b
 
 # 🚀 What I Do
 * 🌐 Website Design & Implementation
-* 📱 Flutter & Mobile App Development (iOS & Android)
+* 📱 Flutter & Mobile App Development (iOS & Android - Swift & kotlin)
 * 🌐 Backend & API Integration
 * 🎯 Building Social Media Platforms
 * 🛠️ Exploring new tools, frameworks, and modern technologies
