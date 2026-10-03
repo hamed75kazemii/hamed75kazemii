@@ -1,6 +1,5 @@
 # ✨ Who am I?
-I'm **Hamed Kazemi**, a passionate **Flutter & Fullstack Developer** who loves building social applications.  
-
+I'm **Hamed Kazemi**
 
 # 🚀 What I Do
 * 🌐 Website Design & Implementation
