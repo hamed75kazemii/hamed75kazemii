@@ -2,9 +2,32 @@
 Reads live numbers from profile/stats.json (written by cards.py); falls back to config only."""
 from __future__ import annotations
 
+import base64
 import json
+import urllib.request
 
 from common import CONFIG, MONO, OUT, THEMES, esc, fmt, write_svg
+
+AVATAR = OUT / "avatar.jpg"
+AVATAR_R = 72
+
+
+def avatar_data_uri() -> str | None:
+    """Refresh profile/avatar.jpg from GitHub (keeps the cached copy if offline), return a data URI."""
+    try:
+        req = urllib.request.Request(f"https://github.com/{CONFIG['login']}.png?size=240",
+                                     headers={"User-Agent": "profile-readme-generator"})
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = resp.read()
+        if data[:3] == b"\xff\xd8\xff" or data[:8] == b"\x89PNG\r\n\x1a\n":
+            AVATAR.write_bytes(data)
+    except Exception as exc:  # network hiccup: fall back to the committed copy
+        print(f"avatar refresh skipped: {exc}")
+    if not AVATAR.exists():
+        return None
+    raw = AVATAR.read_bytes()
+    mime = "image/png" if raw[:8] == b"\x89PNG\r\n\x1a\n" else "image/jpeg"
+    return f"data:{mime};base64,{base64.b64encode(raw).decode()}"
 
 W, LINE_H, PAD_X, TOP = 880, 26, 28, 76
 CHAR_W = 8.4          # approx advance of 14px monospace; used for the type-on clip width
@@ -29,7 +52,7 @@ def lines(stats: dict | None) -> list[tuple[str, str, str]]:
     return rows
 
 
-def render(stats: dict | None, theme: str) -> str:
+def render(stats: dict | None, theme: str, avatar: str | None) -> str:
     t = THEMES[theme]
     rows = lines(stats)
     h = TOP + LINE_H * len(rows) + 22
@@ -38,6 +61,8 @@ def render(stats: dict | None, theme: str) -> str:
         f".g{{fill:{t['green']}}}.title{{font-size:12px;fill:{t['muted']}}}",
         "@keyframes type{from{clip-path:inset(-4px 100% -4px -2px)}to{clip-path:inset(-4px -2px -4px -2px)}}",
         "@keyframes show{to{opacity:1}}",
+        "@keyframes pop{from{opacity:0;transform:scale(.85)}to{opacity:1;transform:scale(1)}}",
+        f".avatar{{animation:pop .7s cubic-bezier(.2,.8,.2,1) .2s both;transform-origin:{W-120}px {40+(h-40)/2:.0f}px}}",
         ".cur{animation:blink 1s steps(2,start) infinite}@keyframes blink{to{visibility:hidden}}",
         "@media (prefers-reduced-motion:reduce){.line{animation:none!important;clip-path:none}.cursor{opacity:1;animation:none}}",
     ]
@@ -72,15 +97,28 @@ def render(stats: dict | None, theme: str) -> str:
         f'<line x1="0" y1="40.5" x2="{W}" y2="40.5" stroke="{t["border"]}"/>',
         '<circle cx="24" cy="20" r="6" fill="#ff5f57"/><circle cx="44" cy="20" r="6" fill="#febc2e"/><circle cx="64" cy="20" r="6" fill="#28c840"/>',
         f'<text class="title" x="{W/2}" y="24" text-anchor="middle">{esc(CONFIG["login"])}@github: ~ — profile.sh --live</text>',
-    ] + body + ["</svg>"]
+    ]
+    if avatar:
+        cx, cy, r = W - 120, 40 + (h - 40) / 2, AVATAR_R
+        out.append(f'<clipPath id="av"><circle cx="{cx}" cy="{cy:.0f}" r="{r}"/></clipPath>')
+        out.append('<g class="avatar">')
+        out.append(f'<circle cx="{cx}" cy="{cy:.0f}" r="{r+5}" fill="{t["accent_soft"]}"/>')
+        out.append(f'<image href="{avatar}" x="{cx-r}" y="{cy-r:.0f}" width="{2*r}" height="{2*r}" '
+                   f'clip-path="url(#av)" preserveAspectRatio="xMidYMid slice"/>')
+        out.append(f'<circle cx="{cx}" cy="{cy:.0f}" r="{r+1}" fill="none" stroke="{t["accent"]}" stroke-width="2.5"/>')
+        dx, dy = cx + r * 0.72, cy + r * 0.72
+        out.append(f'<circle cx="{dx:.0f}" cy="{dy:.0f}" r="9" fill="{t["bg"]}"/><circle cx="{dx:.0f}" cy="{dy:.0f}" r="6" fill="{t["green"]}"/>')
+        out.append("</g>")
+    out += body + ["</svg>"]
     return "\n".join(out)
 
 
 def main() -> None:
     stats_path = OUT / "stats.json"
     stats = json.loads(stats_path.read_text()) if stats_path.exists() else None
+    avatar = avatar_data_uri()
     for theme in THEMES:
-        write_svg(f"banner-{theme}.svg", render(stats, theme))
+        write_svg(f"banner-{theme}.svg", render(stats, theme, avatar))
 
 
 if __name__ == "__main__":
