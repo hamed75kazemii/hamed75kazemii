@@ -1,0 +1,11 @@
+{
+  "title": "languages",
+  "axes": [
+    { "label": "Dart",       "value": 9 },
+    { "label": "TypeScript", "value": 8 },
+    { "label": "JavaScript", "value": 8 },
+    { "label": "Swift",      "value": 7 },
+    { "label": "Kotlin",     "value": 7 },
+    { "label": "Python",     "value": 5 }
+  ]
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="306" viewBox="0 0 880 306" role="img" aria-label="profile.sh --live">
+<style>text{font:500 14px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;white-space:pre}.p{fill:#6f5fcf}.k{fill:#57606a}.v{fill:#1f2328}.g{fill:#1a7f37}.title{font-size:12px;fill:#57606a}@keyframes type{from{clip-path:inset(-4px 100% -4px -2px)}to{clip-path:inset(-4px -2px -4px -2px)}}@keyframes show{to{opacity:1}}.cur{animation:blink 1s steps(2,start) infinite}@keyframes blink{to{visibility:hidden}}@media (prefers-reduced-motion:reduce){.line{animation:none!important;clip-path:none}.cursor{opacity:1;animation:none}}.l0{animation:type 0.74s steps(23) 0.40s both}.l1{animation:type 0.77s steps(24) 1.49s both}.l2{animation:type 1.28s steps(40) 2.37s both}.l3{animation:type 1.89s steps(59) 3.77s both}.l4{animation:type 1.73s steps(54) 5.78s both}.l5{animation:type 1.44s steps(45) 7.63s both}.l6{animation:type 1.38s steps(43) 9.19s both}.cursor{opacity:0;animation:show .01s linear 10.69s forwards}</style>
+<rect width="880" height="306" rx="14" fill="#ffffff" stroke="#d0d7de"/>
+<rect width="880" height="40" rx="14" fill="#f6f8fa"/><rect y="26" width="880" height="14" fill="#f6f8fa"/>
+<line x1="0" y1="40.5" x2="880" y2="40.5" stroke="#d0d7de"/>
+<circle cx="24" cy="20" r="6" fill="#ff5f57"/><circle cx="44" cy="20" r="6" fill="#febc2e"/><circle cx="64" cy="20" r="6" fill="#28c840"/>
+<text class="title" x="440.0" y="24" text-anchor="middle">hamed75kazemii@github: ~ — profile.sh --live</text>
+<text class="line l0" x="28" y="76"><tspan class="p">~ $ </tspan><tspan class="v">./profile.sh --live</tspan></text>
+<text class="line l1" x="28" y="102"><tspan class="p">→ </tspan><tspan class="k">name      </tspan><tspan class="v">Hamed Kazemi</tspan></text>
+<text class="line l2" x="28" y="128"><tspan class="p">→ </tspan><tspan class="k">role      </tspan><tspan class="v">Mobile &amp; Full-Stack Engineer</tspan></text>
+<text class="line l3" x="28" y="154"><tspan class="p">→ </tspan><tspan class="k">stack     </tspan><tspan class="v">Flutter · Swift · Kotlin · Node.js · TypeScript</tspan></text>
+<text class="line l4" x="28" y="180"><tspan class="p">→ </tspan><tspan class="k">building  </tspan><tspan class="v">FrFr — a social platform, mobile + backend</tspan></text>
+<text class="line l5" x="28" y="206"><tspan class="p">→ </tspan><tspan class="k">github    </tspan><tspan class="v">14 repos · 1 stars · 10 followers</tspan></text>
+<text class="line l6" x="28" y="232"><tspan class="p">→ </tspan><tspan class="k">status    </tspan><tspan class="g">● </tspan><tspan class="v">online · last push 2026-10-09</tspan></text>
+<g class="cursor"><text class="p" x="28" y="258">~ $ </text><rect class="cur" x="61.6" y="246" width="8" height="16" fill="#6f5fcf"/></g>
+</svg>

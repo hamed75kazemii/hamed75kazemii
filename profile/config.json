@@ -1,0 +1,9 @@
+{
+  "login": "hamed75kazemii",
+  "display_name": "Hamed Kazemi",
+  "role": "Mobile & Full-Stack Engineer",
+  "stack_line": "Flutter · Swift · Kotlin · Node.js · TypeScript",
+  "building_line": "FrFr — a social platform, mobile + backend",
+  "exclude_repos_from_languages": ["hamed75kazemii", "hamed75kazemii.github.io"],
+  "max_languages": 6
+}
