@@ -15,17 +15,17 @@
 <g class="row" style="animation-delay:0.2s">
 <circle cx="28" cy="110" r="3" fill="#6f5fcf"/>
 <text class="k" x="40" y="114">Pull requests</text>
-<text class="v" x="270" y="114" text-anchor="end">247</text>
+<text class="v" x="270" y="114" text-anchor="end">1</text>
 </g>
 <g class="row" style="animation-delay:0.3s">
 <circle cx="28" cy="134" r="3" fill="#6f5fcf"/>
 <text class="k" x="40" y="138">Issues</text>
-<text class="v" x="270" y="138" text-anchor="end">2</text>
+<text class="v" x="270" y="138" text-anchor="end">1</text>
 </g>
 <g class="row" style="animation-delay:0.4s">
 <circle cx="28" cy="158" r="3" fill="#6f5fcf"/>
 <text class="k" x="40" y="162">Contributed to</text>
-<text class="v" x="270" y="162" text-anchor="end">5</text>
+<text class="v" x="270" y="162" text-anchor="end">0</text>
 </g>
 <g class="row" style="animation-delay:0.5s">
 <circle cx="28" cy="182" r="3" fill="#6f5fcf"/>
@@ -34,6 +34,6 @@
 </g>
 <circle cx="390" cy="118" r="58" fill="#f6f8fa" stroke="#d0d7de"/>
 <circle cx="390" cy="118" r="58" fill="none" stroke="#6f5fcf" stroke-width="3" stroke-dasharray="364" stroke-dashoffset="364" transform="rotate(-90 390 118)"><animate attributeName="stroke-dashoffset" from="364" to="0" dur="1.2s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/></circle>
-<text class="hero" x="390" y="128" text-anchor="middle">14</text>
+<text class="hero" x="390" y="128" text-anchor="middle">9</text>
 <text class="hl" x="390" y="150" text-anchor="middle">public repos</text>
 </svg>

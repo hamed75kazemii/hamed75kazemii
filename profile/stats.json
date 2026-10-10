@@ -2,43 +2,43 @@
   "login": "hamed75kazemii",
   "name": "Hamed Kazemi",
   "year": 2026,
-  "generated_at": "2026-10-10T18:18:31+00:00",
+  "generated_at": "2026-10-10T18:26:29+00:00",
   "stars": 1,
-  "commits_this_year": 1812,
-  "pull_requests": 247,
-  "issues": 2,
-  "contributed_to": 5,
+  "commits_this_year": 1814,
+  "pull_requests": 1,
+  "issues": 1,
+  "contributed_to": 0,
   "followers": 10,
-  "public_repos": 14,
-  "last_push": "2026-10-09",
+  "public_repos": 9,
+  "last_push": "2026-10-10",
   "languages": [
     {
       "name": "Dart",
-      "pct": 64.4
+      "pct": 71.7
     },
     {
       "name": "TypeScript",
-      "pct": 19.2
+      "pct": 9.7
     },
     {
       "name": "JavaScript",
-      "pct": 5.2
-    },
-    {
-      "name": "CSS",
-      "pct": 3.7
+      "pct": 6.1
     },
     {
       "name": "C++",
-      "pct": 2.4
+      "pct": 5.2
     },
     {
-      "name": "HTML",
-      "pct": 2.3
+      "name": "CMake",
+      "pct": 4.2
+    },
+    {
+      "name": "CSS",
+      "pct": 0.9
     },
     {
       "name": "Other",
-      "pct": 2.7
+      "pct": 2.2
     }
   ]
 }
