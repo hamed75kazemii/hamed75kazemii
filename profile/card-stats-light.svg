@@ -15,7 +15,7 @@
 <g class="row" style="animation-delay:0.2s">
 <circle cx="28" cy="110" r="3" fill="#6f5fcf"/>
 <text class="k" x="40" y="114">Pull requests</text>
-<text class="v" x="270" y="114" text-anchor="end">2</text>
+<text class="v" x="270" y="114" text-anchor="end">3</text>
 </g>
 <g class="row" style="animation-delay:0.3s">
 <circle cx="28" cy="134" r="3" fill="#6f5fcf"/>
