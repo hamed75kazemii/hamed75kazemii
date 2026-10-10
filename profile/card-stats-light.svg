@@ -5,7 +5,7 @@
 <g class="row" style="animation-delay:0.0s">
 <circle cx="28" cy="62" r="3" fill="#6f5fcf"/>
 <text class="k" x="40" y="66">Total stars</text>
-<text class="v" x="270" y="66" text-anchor="end">1</text>
+<text class="v" x="270" y="66" text-anchor="end">10</text>
 </g>
 <g class="row" style="animation-delay:0.1s">
 <circle cx="28" cy="86" r="3" fill="#6f5fcf"/>
@@ -15,7 +15,7 @@
 <g class="row" style="animation-delay:0.2s">
 <circle cx="28" cy="110" r="3" fill="#6f5fcf"/>
 <text class="k" x="40" y="114">Pull requests</text>
-<text class="v" x="270" y="114" text-anchor="end">1</text>
+<text class="v" x="270" y="114" text-anchor="end">2</text>
 </g>
 <g class="row" style="animation-delay:0.3s">
 <circle cx="28" cy="134" r="3" fill="#6f5fcf"/>
