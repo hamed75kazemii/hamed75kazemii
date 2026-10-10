@@ -26,6 +26,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - run: pip install pillow
       - name: Render assets
         env:
           GH_PAT: ${{ secrets.GH_PAT }}

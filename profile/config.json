@@ -4,6 +4,74 @@
   "role": "Mobile & Full-Stack Engineer",
   "stack_line": "Flutter · Swift · Kotlin · Node.js · TypeScript",
   "building_line": "FrFr — a social platform, mobile + backend",
-  "exclude_repos_from_languages": ["hamed75kazemii", "hamed75kazemii.github.io"],
-  "max_languages": 6
+  "exclude_repos_from_languages": [
+    "hamed75kazemii",
+    "hamed75kazemii.github.io"
+  ],
+  "max_languages": 6,
+  "portrait_cell": 2,
+  "portrait_ink": "auto",
+  "portrait_gamma": 1.0,
+  "system_info": [
+    [
+      "Subject",
+      "Hamed Kazemi"
+    ],
+    [
+      "Role",
+      "Mobile · Full-Stack Engineer"
+    ],
+    [
+      "Origin",
+      "Iran"
+    ],
+    [
+      "Focus",
+      "Social platforms · Mobile apps"
+    ],
+    [
+      "Status",
+      "Building + Shipping + Learning"
+    ],
+    [
+      "ToolChain",
+      "Xcode · Android Studio · VS Code · Git"
+    ],
+    [
+      "Core.Mobile",
+      "Flutter · Dart · Swift · Kotlin"
+    ],
+    [
+      "Core.Frontend",
+      "React · React Native · Vite"
+    ],
+    [
+      "Core.Backend",
+      "Node.js · TypeScript · Python"
+    ],
+    [
+      "Core.Database",
+      "MongoDB · MySQL"
+    ],
+    [
+      "Core.Design",
+      "Figma"
+    ],
+    [
+      "Grid.Mail",
+      "hamed75kazemii@gmail.com"
+    ],
+    [
+      "Grid.LinkedIn",
+      "/in/hamed--kazemi"
+    ],
+    [
+      "Grid.GitHub",
+      "hamed75kazemii"
+    ],
+    [
+      "Grid.Telegram",
+      "@hamed_kzy"
+    ]
+  ]
 }
