@@ -1,0 +1,12 @@
+{
+  "title": "skills",
+  "axes": [
+    { "label": "Mobile",       "value": 9 },
+    { "label": "Backend",      "value": 8 },
+    { "label": "Frontend",     "value": 7 },
+    { "label": "Database",     "value": 7 },
+    { "label": "UI / UX",      "value": 7 },
+    { "label": "Architecture", "value": 7 },
+    { "label": "DevOps",       "value": 5 }
+  ]
+}
