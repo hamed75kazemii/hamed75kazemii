@@ -5,33 +5,33 @@
 <clipPath id="bar"><rect x="24" y="54" width="432" height="12" rx="6"/></clipPath>
 <rect x="24" y="54" width="432" height="12" rx="6" fill="#161b22"/>
 <g clip-path="url(#bar)">
-<rect x="24.0" y="54" width="295.9" height="12" fill="#aa9bef"><animate attributeName="width" from="0" to="295.9" dur="0.9s" begin="0.00s" fill="freeze"/></rect>
-<rect x="321.9" y="54" width="38.2" height="12" fill="#8f7fe0"><animate attributeName="width" from="0" to="38.2" dur="0.9s" begin="0.08s" fill="freeze"/></rect>
-<rect x="362.2" y="54" width="24.4" height="12" fill="#7565cf"><animate attributeName="width" from="0" to="24.4" dur="0.9s" begin="0.16s" fill="freeze"/></rect>
-<rect x="388.5" y="54" width="19.6" height="12" fill="#5d4fb8"><animate attributeName="width" from="0" to="19.6" dur="0.9s" begin="0.24s" fill="freeze"/></rect>
-<rect x="410.2" y="54" width="15.3" height="12" fill="#4a3f99"><animate attributeName="width" from="0" to="15.3" dur="0.9s" begin="0.32s" fill="freeze"/></rect>
-<rect x="427.5" y="54" width="9.2" height="12" fill="#3a327a"><animate attributeName="width" from="0" to="9.2" dur="0.9s" begin="0.40s" fill="freeze"/></rect>
-<rect x="438.7" y="54" width="15.3" height="12" fill="#2c2760"><animate attributeName="width" from="0" to="15.3" dur="0.9s" begin="0.48s" fill="freeze"/></rect>
+<rect x="24.0" y="54" width="268.3" height="12" fill="#aa9bef"><animate attributeName="width" from="0" to="268.3" dur="0.9s" begin="0.00s" fill="freeze"/></rect>
+<rect x="294.3" y="54" width="38.2" height="12" fill="#8f7fe0"><animate attributeName="width" from="0" to="38.2" dur="0.9s" begin="0.08s" fill="freeze"/></rect>
+<rect x="334.5" y="54" width="34.3" height="12" fill="#7565cf"><animate attributeName="width" from="0" to="34.3" dur="0.9s" begin="0.16s" fill="freeze"/></rect>
+<rect x="370.8" y="54" width="21.8" height="12" fill="#5d4fb8"><animate attributeName="width" from="0" to="21.8" dur="0.9s" begin="0.24s" fill="freeze"/></rect>
+<rect x="394.6" y="54" width="17.9" height="12" fill="#4a3f99"><animate attributeName="width" from="0" to="17.9" dur="0.9s" begin="0.32s" fill="freeze"/></rect>
+<rect x="414.5" y="54" width="13.6" height="12" fill="#3a327a"><animate attributeName="width" from="0" to="13.6" dur="0.9s" begin="0.40s" fill="freeze"/></rect>
+<rect x="430.1" y="54" width="23.9" height="12" fill="#2c2760"><animate attributeName="width" from="0" to="23.9" dur="0.9s" begin="0.48s" fill="freeze"/></rect>
 </g>
 <rect x="24.0" y="89" width="10" height="10" rx="3" fill="#aa9bef"/>
 <text class="k" x="40.0" y="98">Dart</text>
-<text class="p" x="160.0" y="98" text-anchor="end">68.9%</text>
+<text class="p" x="160.0" y="98" text-anchor="end">62.5%</text>
 <rect x="168.0" y="89" width="10" height="10" rx="3" fill="#8f7fe0"/>
-<text class="k" x="184.0" y="98">TypeScript</text>
+<text class="k" x="184.0" y="98">GDScript</text>
 <text class="p" x="304.0" y="98" text-anchor="end">9.3%</text>
 <rect x="312.0" y="89" width="10" height="10" rx="3" fill="#7565cf"/>
-<text class="k" x="328.0" y="98">JavaScript</text>
-<text class="p" x="448.0" y="98" text-anchor="end">6.1%</text>
+<text class="k" x="328.0" y="98">TypeScript</text>
+<text class="p" x="448.0" y="98" text-anchor="end">8.4%</text>
 <rect x="24.0" y="111" width="10" height="10" rx="3" fill="#5d4fb8"/>
-<text class="k" x="40.0" y="120">C++</text>
-<text class="p" x="160.0" y="120" text-anchor="end">5.0%</text>
+<text class="k" x="40.0" y="120">JavaScript</text>
+<text class="p" x="160.0" y="120" text-anchor="end">5.5%</text>
 <rect x="168.0" y="111" width="10" height="10" rx="3" fill="#4a3f99"/>
-<text class="k" x="184.0" y="120">CMake</text>
-<text class="p" x="304.0" y="120" text-anchor="end">4.0%</text>
+<text class="k" x="184.0" y="120">C++</text>
+<text class="p" x="304.0" y="120" text-anchor="end">4.6%</text>
 <rect x="312.0" y="111" width="10" height="10" rx="3" fill="#3a327a"/>
-<text class="k" x="328.0" y="120">HTML</text>
-<text class="p" x="448.0" y="120" text-anchor="end">2.6%</text>
+<text class="k" x="328.0" y="120">CMake</text>
+<text class="p" x="448.0" y="120" text-anchor="end">3.6%</text>
 <rect x="24.0" y="133" width="10" height="10" rx="3" fill="#2c2760"/>
 <text class="k" x="40.0" y="142">Other</text>
-<text class="p" x="160.0" y="142" text-anchor="end">4.0%</text>
+<text class="p" x="160.0" y="142" text-anchor="end">6.0%</text>
 </svg>

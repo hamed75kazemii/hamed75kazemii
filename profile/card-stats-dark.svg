@@ -34,6 +34,6 @@
 </g>
 <circle cx="390" cy="118" r="58" fill="#161b22" stroke="#30363d"/>
 <circle cx="390" cy="118" r="58" fill="none" stroke="#aa9bef" stroke-width="3" stroke-dasharray="364" stroke-dashoffset="364" transform="rotate(-90 390 118)"><animate attributeName="stroke-dashoffset" from="364" to="0" dur="1.2s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/></circle>
-<text class="hero" x="390" y="128" text-anchor="middle">10</text>
+<text class="hero" x="390" y="128" text-anchor="middle">11</text>
 <text class="hl" x="390" y="150" text-anchor="middle">public repos</text>
 </svg>
